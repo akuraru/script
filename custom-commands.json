@@ -1,0 +1,65 @@
+[
+  {
+    "version" : 1
+  },
+  {
+    "action" : {
+      "script" : "zsh ..\/script\/all-delete-branch-force.sh",
+      "showOutput" : false,
+      "type" : "sh",
+      "waitForExit" : true
+    },
+    "name" : "all-delete-branch-force",
+    "target" : "repository"
+  },
+  {
+    "action" : {
+      "script" : "zsh ..\/script\/all-delete-branch-force.sh",
+      "showOutput" : false,
+      "type" : "sh",
+      "waitForExit" : true
+    },
+    "name" : "all-delete-branch-force",
+    "target" : "repository"
+  },
+  {
+    "action" : {
+      "script" : "zsh ..\/script\/all-delete-branch.sh",
+      "showOutput" : false,
+      "type" : "sh",
+      "waitForExit" : true
+    },
+    "name" : "all-delete-branch",
+    "target" : "repository"
+  },
+  {
+    "action" : {
+      "script" : "zsh ..\/script\/master-update.sh",
+      "showOutput" : false,
+      "type" : "sh",
+      "waitForExit" : true
+    },
+    "name" : "master-update",
+    "target" : "repository"
+  },
+  {
+    "action" : {
+      "script" : "zsh ..\/script\/rebase-to-master.sh",
+      "showOutput" : false,
+      "type" : "sh",
+      "waitForExit" : true
+    },
+    "name" : "rebase-to-master",
+    "target" : "repository"
+  },
+  {
+    "action" : {
+      "script" : "zsh ..\/script\/reset-branch.sh",
+      "showOutput" : false,
+      "type" : "sh",
+      "waitForExit" : true
+    },
+    "name" : "reset-branch",
+    "target" : "repository"
+  }
+]
